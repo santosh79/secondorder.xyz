@@ -6,51 +6,55 @@
   <title>secondorder.xyz</title>
   <style>
     body {
-      background: #f6f3ef; /* warm beige tone */
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-      color: #333;
-      margin: 0;
+        background: #f6f3ef; /* warm beige tone */
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        color: #333;
+        margin: 0;
     }
     .container {
-      max-width: 600px;
-      padding: 2rem;
+        max-width: 600px;
+        padding: 2rem;
     }
     p {
-      font-size: 1.4rem;
-      line-height: 1.6;
+        font-size: 1.4rem;
+        line-height: 1.6;
     }
     .divider {
-      margin-top: 2.5rem;
-      font-size: 1.5rem;
-      letter-spacing: 0.1em;
-      color: #aaa;
-      opacity: 0;
-      animation: fadeIn 2s ease 2s forwards;
+        margin-top: 2.5rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.1em;
+        color: #aaa;
+        opacity: 0;
+        animation: fadeIn 2s ease 2s forwards;
     }
     .email {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #777;
+        margin-top: 3rem;
+        font-size: 0.9rem;
+        color: #777;
     }
-    .email a {
-      text-decoration: none;
-      color: #777;
-      transition: color 0.3s ease;
+    .writings {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        color: #777;
     }
-    .email a:hover {
-      color: #000;
+    .email a, .writings a {
+        text-decoration: none;
+        color: #777;
+        transition: color 0.3s ease;
     }
-
+    .email a:hover, .writings a:hover {
+        color: #444;
+    }
     @keyframes fadeIn {
-    to {
-      opacity: 1;
+        to {
+            opacity: 1;
+        }
     }
-  }
   </style>
 </head>
 <body>
@@ -61,6 +65,9 @@
     <div class="divider">+++</div>
     <div class="email">
       <a href="mailto:santosh@secondorder.xyz">→ santosh@secondorder.xyz</a>
+    </div>
+    <div class="writings">
+      <a href="writings/index.html">→ Writings</a>
     </div>
   </div>
 </body>
